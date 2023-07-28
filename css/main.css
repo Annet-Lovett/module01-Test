@@ -1,0 +1,22 @@
+body {
+    background-color: greenyellow;
+}
+
+p {
+    color: rgb(48, 102, 26);
+    background-color: rgb(255, 229, 197);
+}
+
+ul {
+    color: deeppink;
+    background-color: black;
+}
+
+ol {
+    color: aliceblue;
+    background-color: rgb(255, 200, 227);
+}
+
+h1 {
+    text-decoration-line: underline;
+}
