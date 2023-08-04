@@ -20,24 +20,20 @@ body {
     background-color: rebeccapurple;
     font-weight: 700;
 }
+
 ul {
     display: flex;
     list-style-type: none;
     padding-left: 0;
     margin: 0;
+    gap: 30px;
 }
 
 nav {
     display: flex;
+    gap: 30px;
 }
 
-ul > li {
-    margin-right: 30px;
-}
-
-ul > li:last-child{
-    margin-right: 0;
-}
 
 .box {
     display: flex;
@@ -73,6 +69,10 @@ section {
     background-color: lavender;
     padding: 5px 20px;
     margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -80,5 +80,16 @@ section {
     background-color: rebeccapurple;
     color: white;
     padding: 8px 15px;
-    margin-left: 10px;
+}
+
+.results { 
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.results>section>p>a {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
 }
